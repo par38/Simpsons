@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+
+.Working {
+  animation: Working-spin infinite 5s linear;
+  height: 80px;
+}
+
+@keyframes Working-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+.Pause {
+  animation: Pause-spin infinite 2s linear;
+  height: 80px;
+} 
+
+@keyframes Pause-spin {
+  from { transform: scale(0); }
+  to {transform: scale(0.25); }
+}
